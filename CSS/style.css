@@ -1,0 +1,36 @@
+.body{
+    background-image: url("/images/bg2.jpg");
+}
+.container{
+    opacity: 0.8;
+}
+@media only screen and (max-width:500px){
+    .body{
+        background-image: url("/images/bg_mob.jpg");
+        
+    }
+    .h1, h1 {
+        font-size: calc(1.375rem + 1.5vw);
+        color: #ff9b9b;
+    }
+}
+@media only screen and (max-width:614px){
+    .searchbar{
+        padding-top: 25px;;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+    } 
+}
+.searchbar{
+    padding-top: 25px;;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
