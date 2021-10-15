@@ -1,6 +1,8 @@
 .body{
-    background-image: url("/Memo-Book/images/bg2.jpg");
+    /* background-image: url("/Memo-Book/images/bg2.jpg"); */
+   background:linear-gradient(355deg,#EE7752,#52a566,#5f6497,#dcdd7e);
 }
+
 .container{
     opacity: 0.8;
 }
@@ -12,8 +14,7 @@
     }
 @media only screen and (max-width:500px){
     .body{
-        background-image: url("/Memo-Book/images/bg_mob.jpg");
-        
+        background:linear-gradient(323deg,#EE7752,#f83c3ca8,#59ce63,#dcdd7e); 
     }
    
     .nav-item > h1:nth-child(1) {
@@ -41,5 +42,15 @@
     align-items: center;
     flex-wrap: wrap;
 }
+/*detete icon style*/
+.fa-trash-alt:before {
+    content: "\f2ed";
+    color: red;
+}
 
+/*edit icom style*/
+.fa-edit:before {
+    content: "\f044";
+    color:green;
+}
 
