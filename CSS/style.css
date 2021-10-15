@@ -4,15 +4,24 @@
 .container{
     opacity: 0.8;
 }
+.nav-item > h1:nth-child(1) {
+    font-size: 56px;
+    font-weight: 600;
+    margin-top: 55px;
+    color: #3d3a3a;
+    }
 @media only screen and (max-width:500px){
     .body{
         background-image: url("/Memo-Book/images/bg_mob.jpg");
         
     }
-    .h1, h1 {
-        font-size: calc(1.375rem + 1.5vw);
-        color: #ff9b9b;
-    }
+   
+    .nav-item > h1:nth-child(1) {
+        font-size: 56px;
+        font-weight: 600;
+        margin-top: 55px;
+        color: #3d3a3a;
+        }
 }
 @media only screen and (max-width:614px){
     .searchbar{
