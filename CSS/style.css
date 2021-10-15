@@ -1,12 +1,12 @@
 .body{
-    background-image: url("/Memo-book/images/bg2.jpg");
+    background-image: url("/Memo-Book/images/bg2.jpg");
 }
 .container{
     opacity: 0.8;
 }
 @media only screen and (max-width:500px){
     .body{
-        background-image: url("/Memo-book/images/bg_mob.jpg");
+        background-image: url("/Memo-Book/images/bg_mob.jpg");
         
     }
     .h1, h1 {
