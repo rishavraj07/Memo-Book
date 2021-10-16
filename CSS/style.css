@@ -1,6 +1,6 @@
 .body{
     /* background-image: url("/Memo-Book/images/bg2.jpg"); */
-   background:linear-gradient(355deg,#EE7752,#52a566,#5f6497,#dcdd7e);
+   background:linear-gradient(305deg,#9796F0,#ccae5ccb,#e4e5e6);
 }
 
 .container{
@@ -14,7 +14,7 @@
     }
 @media only screen and (max-width:500px){
     .body{
-        background:linear-gradient(323deg,#EE7752,#f83c3ca8,#59ce63,#dcdd7e); 
+        background:linear-gradient(82deg,#9796F0,#fbc7d4,rgb(229 228 26 / 68%));
     }
    
     .nav-item > h1:nth-child(1) {
